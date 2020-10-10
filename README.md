@@ -32,7 +32,7 @@
     * 开启爬虫之前需要修改下载器中间件的ProxyMiddleware类，并在settings中开启该中间件。
     * 单个IP大约能爬取6000条商品信息，随即被封，大约3小时解封？（未经过详细测试）
 ## 商品类别样例
-![Image](https://github.com/ssmnghunssjust/wenshu_retry/blob/main/img/pythonVersion.png)
+![Image](https://github.com/ssmnghunssjust/jd_spider/blob/master/img/redis.png)
 ## 商品爬取样例
 ```json
 {
