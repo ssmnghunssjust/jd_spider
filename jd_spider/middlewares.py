@@ -46,8 +46,8 @@ USERAGENT = ['Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420
 
 class RandomUserAgent(object):
     def process_request(self, request, spider):
-        # request.headers['User-Agent'] = random.choice(USERAGENT)
-        request.headers['User-Agent'] = fake_useragent.UserAgent().random
+        request.headers['User-Agent'] = random.choice(USERAGENT)
+#         request.headers['User-Agent'] = fake_useragent.UserAgent().random
         return None
 
 
