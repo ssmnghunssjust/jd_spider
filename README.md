@@ -21,7 +21,7 @@
     * 重试
         * tenacity
     * 随机UA
-        * fake_useragent
+        * fake_useragent（舍弃）
 ## 目前存在的反爬措施
     * referer
     * UA
